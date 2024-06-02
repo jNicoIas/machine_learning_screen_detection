@@ -1,0 +1,29 @@
+Printed Output
+CONFUSION MATRIx:
+[[ 809    0    3]
+ [   3  200    1]
+ [   3    0 1024]]
+Classification Accuracy: 0.9951
+""
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+""
+           0     0.9926    0.9963    0.9945       812
+           1     1.0000    0.9804    0.9901       204
+           2     0.9961    0.9971    0.9966      1027
+""
+    accuracy                         0.9951      2043
+   macro avg     0.9962    0.9913    0.9937      2043
+weighted avg     0.9951    0.9951    0.9951      2043
+""
+K-Fold Average Accuracy: 0.9965
+K-Fold Variance: 0.0039
+Classfication Accuracy: 0.9951
+ 
+   Experimental (s)  Actual (s)  Error (s)  Percent Error (%)
+0        169.903193  169.277782   0.625411           0.369458
+1        212.651206  212.444347   0.206859           0.097371
+2         43.005614   43.865726   0.860112           1.960784
+Total predicted time: 425.560012825
+Total test time: 425.58785543
+Percent Error: 0.006542152141972686
